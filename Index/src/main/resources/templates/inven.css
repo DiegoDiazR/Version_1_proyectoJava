@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+.contenedor {
+    background-color: #fff;
+    padding: 20px;
+    margin: 110px 20px 20px 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    display: block;
+}
+
+.contenedor h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.contenedor p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.contenedor:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+#materia{
+    background-color: #B2F036;
+}
+
+#producto{
+    background-color: #79B1EE;
+}
+
+#bodega{
+    background-color: rgb(226, 49, 46, 0.5);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.contenido{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.titulo{
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #515966;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    position: ;
+    bottom: 0;
+    width: 100%;
+}
